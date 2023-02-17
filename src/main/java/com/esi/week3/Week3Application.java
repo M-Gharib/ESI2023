@@ -1,13 +1,13 @@
-package com.esi.week1;
+package com.esi.week3;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Week1Application {
+public class Week3Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Week1Application.class, args);
+		SpringApplication.run(Week3Application.class, args);
 	}
 
 }
