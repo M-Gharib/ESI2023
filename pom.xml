@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.esi</groupId>
-	<artifactId>week2</artifactId>
+	<artifactId>week3-docker</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>week2</name>
+	<name>week3-docker</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>17</java.version>

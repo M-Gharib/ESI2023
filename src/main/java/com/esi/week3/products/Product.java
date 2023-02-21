@@ -1,11 +1,19 @@
-package com.esi.week2.products;
+package com.esi.week3.products;
 
 import java.math.BigDecimal;
 
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
-
+@Entity
+@Table(name = "producttable")
 public class Product {
+    
+    @Id
     private String id;
+    @Column(name = "name")
     private String name;
     private String description;
     private BigDecimal price;
