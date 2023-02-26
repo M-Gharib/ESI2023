@@ -94,17 +94,6 @@ Using this annotation will disable full auto-configuration and instead apply onl
         // to be done by students
         @Test
         void putProductApiTest() throws Exception {
-                Product product = new Product();
-                        product.setId("01");
-                        product.setName("product 1");
-                        product.setDescription("it cost more");
-                        product.setPrice(BigDecimal.valueOf(1231));
 
-        mockMvc.perform(MockMvcRequestBuilders  
-                .put("/api/products/{id}", 01)
-                .contentType(MediaType.APPLICATION_JSON)
-                .content(asJsonString(product)) 
-                .accept(MediaType.APPLICATION_JSON))
-                .andExpect(status().isAccepted());
         }
     }
